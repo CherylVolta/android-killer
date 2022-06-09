@@ -1,0 +1,7 @@
+#打印json数据
+
+    invoke-static {vx}, Lcom/mtools/LogUtils;->json(Ljava/lang/Object;)V
+
+#打印其余格式
+  
+    invoke-static {v2}, Lcom/mtools/LogUtils;->v(Ljava/lang/Object;)V

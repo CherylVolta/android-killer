@@ -1,0 +1,8 @@
+#使用建议：先利用adb shell dumpsys activity命令查看程序运行当前的activity，到相应的activity中的代码处，注入以下代码，会生成一个.trace文件，用DDMS的traceview分析，或者使用sdk下的platformtool文件夹中的dmtracedump工具把.trace文件生成程序流程图，一目了然
+
+const-string v1,"123"
+invoke-static {v1},Landroid/os/Debug;->startMethodTracing(Ljava/lang/String;)V
+
+#要跟踪的代码段
+
+invoke-static {},Landroid/os/Debug;->stopMethodTracing()V

@@ -1,0 +1,3 @@
+const-string v0, "这里是要输入的文字unicode码"
+
+invoke-static {v0}, Lcom/android/killer/Log;->LogStr(Ljava/lang/String;)V

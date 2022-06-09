@@ -1,0 +1,3 @@
+const-string v0, "so ¿âÃû³Æ"
+
+invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
