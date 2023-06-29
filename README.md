@@ -1,5 +1,9 @@
 # Android Killer
 
+仅仅只是整合修改了 android killer 工具，让它再战 20 年！
+
+思路和方法来自大佬 [昨夜星辰2012](https://www.52pojie.cn/home.php?mod=space&uid=571540&do=profile&from=space) 的 [AndroidKiller安装、设置及使用教程](https://www.52pojie.cn/thread-726176-1-1.html)。
+
 ## 整合修改内容
 
 1. bin
