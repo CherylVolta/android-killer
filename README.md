@@ -18,7 +18,9 @@
 
 ## 食用方法
 
-[参考此文](https://blog.csdn.net/yiran1919/article/details/132760445) 或自行搜索。
+点击[此处](https://github.com/SeagullOddy/android-killer/archive/refs/heads/main.zip)下载最新压缩包，解压后即可直接使用。
+
+Android Killer 的使用方法请[参考此文](https://blog.csdn.net/yiran1919/article/details/132760445)或自行搜索。
 
 ## 更新方法
 
