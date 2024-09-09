@@ -10,7 +10,7 @@
   - 更新 **adb** 和 **busybox**，版本未知（能用就可以，不必更新）
   - 更新默认的 **apktool.jar** 至 v2.9.3
   - 更新 **dex2jar** 至 v2.4
-  - 弃用内置的 **jd-gui.exe**，使用自己编写的空壳应用 [**android-killer-support-jadx-gui**](https://github.com/Charlott2/android-killer-support-jadx-gui) 替换，实现改用 **jadx-gui.exe** 进行默认的反编译操作
+  - 弃用内置的 **jd-gui.exe**，使用自己编写的空壳应用 [**android-killer-support-jadx-gui**](../../../android-killer-support-jadx-gui) 替换，实现改用 **jadx-gui.exe** 进行默认的反编译操作
 - `tools/`
   - 添加 **ApkScan PKID**，来源于 [APK 查壳工具 PKID](http://www.legendsec.org/1888.html)，由于工具年代久远，效果无法保证，建议自行寻找替代方案
   - 添加 **InjectLog**，来源于 [InjectLog 工具使用方法详解](https://www.52pojie.cn/thread-743758-1-1.html) 与 [Android 应用逆向——分析反编译代码之大神器](https://blog.csdn.net/charlessimonyi/article/details/52027563)
@@ -18,7 +18,7 @@
 
 ## 食用方法
 
-点击[此处](https://github.com/Charlott2/android-killer/archive/refs/heads/main.zip)下载最新压缩包，解压后即可直接使用。
+点击[此处](../../archive/refs/heads/main.zip)下载最新压缩包，解压后即可直接使用。
 
 Android Killer 的使用方法请[参考此文](https://blog.csdn.net/yiran1919/article/details/132760445)或自行搜索。
 
