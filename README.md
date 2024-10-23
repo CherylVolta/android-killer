@@ -20,16 +20,16 @@ Android Killer 的使用方法请[参考此文](https://blog.csdn.net/yiran1919/
   - 更新 **adb** 和 **busybox**，版本未知（能用就可以，不必更新）
   - 更新默认的 **apktool.jar** 至 v2.10.0
   - 更新 **dex2jar** 至 v2.4
-  - 弃用内置的 **jd-gui.exe**，使用自己编写的空壳应用 [**android-killer-support-jadx-gui**](../../../android-killer-support-jadx-gui) 替换，实现改用 **jadx-gui.exe** 进行默认的反编译操作
+  - 弃用内置的 **jd-gui**，使用自己编写的空壳应用 [**ak-support-jadx-gui**](../../../android-killer-support-jadx-gui) 替换，实现改用 **jadx-gui** 进行默认的反编译操作
 - `tools/`
   - 添加 **ApkScan PKID**，来源于 [APK 查壳工具 PKID](http://www.legendsec.org/1888.html)，由于工具年代久远，效果无法保证，建议自行寻找替代方案
   - 添加 **InjectLog**，来源于 [InjectLog 工具使用方法详解](https://www.52pojie.cn/thread-743758-1-1.html) 与 [Android 应用逆向——分析反编译代码之大神器](https://blog.csdn.net/charlessimonyi/article/details/52027563)
-  - 添加 **JADX-GUI**，no-jre 版本，更新至 v1.5.0
+  - 添加 **jadx-gui**，no-jre 版本，更新至 v1.4.7。由于 GitHub 单文件大小限制为 100MB，jadx-gui v1.5.0 超过限制，因此，如您有更新需要，请参考[自行更新方法之 jadx-gui 更新方法](#jadx-gui-更新方法)
 
 ## 自行更新方法
 
-### Apktool 更新方法
-1. 从 [Apktool 下载页面](https://github.com/iBotPeaches/Apktool/releases) 下载最新版的 **apktool_x.x.x.jar**
+### apktool 更新方法
+1. 从 [apktool 下载页面](https://github.com/iBotPeaches/Apktool/releases) 下载最新版的 **apktool_x.x.x.jar**
 3. 放置在 `bin/apktool/apktool/` 目录下，打开 **Android Killer** 首页的 **Android** 菜单并打开 **APKTOOL 管理器**，添加下载的版本并设置为默认
    ![展示](pictures/image1.png)
    ![展示](pictures/image2.png)
